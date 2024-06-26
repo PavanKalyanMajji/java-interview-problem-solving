@@ -9,6 +9,8 @@ package com.tcs.javaproblemsolving;
  *
  */
 public class Palindrome {
+	static int input;
+	static int temp=0;
 	public static boolean checkGivenNumberIsPalindrome(int target) {
 		int input=target;
 		int temp=0;
@@ -20,8 +22,24 @@ public class Palindrome {
 			return true;
 		return false;
 	}
+/**
+ * By Using Recursion.	
+ * @param target
+ * @return
+ */
+	public static boolean checkGivenNumberIsPalindromeRecursion(int target) {
+		if(target>0) {
+			temp=temp*10+target%10;
+			checkGivenNumberIsPalindromeRecursion(target/10);
+		}
+		if(input==temp)
+			return true;
+		return false;
+	}
 	public static void main(String[] args) {
 		int target =121;
 		System.out.println("Is "+target+" value is Palindrome.. "+checkGivenNumberIsPalindrome(target));
+		input=target;
+		System.out.println("Is "+target+" value is Palindrome.. "+checkGivenNumberIsPalindromeRecursion(target));
 	}
 }
