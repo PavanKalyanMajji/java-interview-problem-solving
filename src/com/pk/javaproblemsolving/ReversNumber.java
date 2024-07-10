@@ -1,4 +1,4 @@
-package com.tcs.javaproblemsolving;
+package com.pk.javaproblemsolving;
 /**
  * 
  * Reverse Given Number

@@ -1,4 +1,4 @@
-package com.tcs.javaproblemsolving;
+package com.pk.javaproblemsolving;
 /**
  * 
  *check given number is palindrome or not

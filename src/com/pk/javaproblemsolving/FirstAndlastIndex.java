@@ -1,4 +1,4 @@
-package com.tcs.javaproblemsolving;
+package com.pk.javaproblemsolving;
 /**
  *first and last index of given number.
  *example1 :- {10,20,10,30} target :- 10
