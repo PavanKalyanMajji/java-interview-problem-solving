@@ -14,7 +14,6 @@ public class EmptyBox {
 					System.out.print("* ");
 				}
 			}
-
 			System.out.println();
 		}
 	}
