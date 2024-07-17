@@ -57,5 +57,5 @@ public class RemoveDuplicatesArray {
 	}
 	
 //	input:- [ 45, 18, 25, 1, 7, 93, 10, 17, 25, 0, 45 ]
-//	output:- [0, 1, 17, 18, 7, 25, 10, 45, 93]
+//	output:- [0, 1, 7, 10, 17, 18, 25, 45, 93]
 }
