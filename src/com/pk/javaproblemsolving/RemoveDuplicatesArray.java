@@ -6,6 +6,9 @@ import java.util.Set;
 /**
  * 
  * Remove Duplicates from Sorted Array
+ * 
+ * 1. First Approach using Hash set which is a part of collection and maintains Unique values.
+ * 2. Second Approach using temporary array after sorting.
  *
  */
 public class RemoveDuplicatesArray {
